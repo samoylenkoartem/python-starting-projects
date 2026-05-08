@@ -7,8 +7,6 @@ if os.path.exists(filename):
 else:
     tasks = []
 
-
-
 print("Добро пожаловать в Todo-менеджер!")
 while True:
     print("\nВыберите действие:")
