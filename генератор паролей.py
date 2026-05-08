@@ -24,7 +24,7 @@ def generate_readable_password(num_syllables, add_digit, capitalize):
 def check_strength(password, size, answer):
     for i in range(len(password) - 2):
         if password[i] == password[i + 1] == password[i + 2]:
-            return "Плохой ❌ (обнаружены повторяющиеся символы)"
+            return "Плохой (обнаружены повторяющиеся символы)"
     has_digit = any(i in string.digits for i in password)
     has_uppercase = any(i in string.ascii_uppercase for i in password)
     if answer == 'y' and has_uppercase == True and has_digit == True and size >= 10:
