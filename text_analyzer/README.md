@@ -11,9 +11,7 @@
 - ✅ Слова в обратном порядке
 
 ##  Как запустить
-
 ```python
-from text_analyzer import analyze_text
 result = analyze_text("hello world hello python")
 print(result)
 ```
