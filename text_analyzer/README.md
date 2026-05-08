@@ -15,7 +15,7 @@
 result = analyze_text("hello world hello python")
 print(result)
 ```
-### Пример ввода 
+### Пример вывода 
 ```
 {
   "word_count": 4,
